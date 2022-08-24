@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact details</title>
+  </head>
+  <body>
+    <h1>Contact details</h1>
+      <p>Sam Cubero</p>
+      <p>Phone number: 0444444444</p>
+      <p>Email:  samcubero @ gmail.com </p>
+      <p>Website:  <a href="http://www.samcubero.com">Home Page</a></p>
+
+   <hr />
+
+   <form>
+       <label>Your Name:  </label>
+       <input type="text" name="" value="" />
+       <input type="submit" name="">
+       <input type="file" id="filepicker" />
+       <input type="date" value="2017-06-01">
+       <fieldset>
+    <legend>Select a maintenance drone:</legend>
+
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey"
+             checked>
+      <label for="huey">Huey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey">
+      <label for="dewey">Dewey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="louie" name="drone" value="louie">
+      <label for="louie">Louie</label>
+    </div>
+</fieldset>
+<p>Audio settings:</p>
+
+<div>
+<input type="range" id="volume" name="volume"
+    min="0" max="11">
+<label for="volume">Volume</label>
+</div>
+
+<div>
+<input type="range" id="cowbell" name="cowbell"
+    min="0" max="100" value="90" step="10">
+<label for="cowbell">Cowbell</label>
+</div>
+   </form>
+   <fieldset>
+       <legend>Choose what turns you on:</legend>
+
+       <div>
+         <input type="checkbox" id="face" name="face"
+                checked>
+         <label for="face">Face</label>
+       </div>
+
+       <div>
+         <input type="checkbox" id="body" name="body">
+         <label for="body">Body</label>
+       </div>
+
+       <div>
+         <input type="checkbox" id="personality" name="personality">
+         <label for="personality">Personality</label>
+       </div>
+   </fieldset>
+
+
+  </body>
+</html>
